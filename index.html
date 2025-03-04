@@ -6,34 +6,34 @@
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>laiba PORTFOLIO</title>
   <link rel="stylesheet" href="lstyles.css">
- 
-<style>
-     /* General Styles */
-body {
+
+  <style>
+    /* General Styles */
+    body {
       font-family: Arial, sans-serif;
       background-color: #fffdfd;
       text-align: center;
-      padding: 20px; 
-      
-  }
+      padding: 20px;
 
-  .container {
+    }
+
+    .container {
       max-width: 1000px;
       margin: auto;
       background: white;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
+    }
 
-  /* Toggle Button Styles */
-  .toggle-buttons {
+    /* Toggle Button Styles */
+    .toggle-buttons {
       display: flex;
       justify-content: center;
       margin-bottom: 20px;
-  }
+    }
 
-  .toggle-btn {
+    .toggle-btn {
       flex: 1;
       padding: 10px;
       border: none;
@@ -42,100 +42,107 @@ body {
       font-weight: bold;
       border-radius: 5px;
       transition: background 0.3s;
-  }
+    }
 
-  .toggle-btn.active {
+    .toggle-btn.active {
       background-color: #6d32b9;
       color: white;
-  }
+    }
 
-  /* Content Styles */
-  .content {
+    /* Content Styles */
+    .content {
       display: none;
       font-size: 18px;
       animation: fadeIn 0.5s;
       text-shadow: 0 0 25px #6f7dd6, 0 0 32px #894dea, 0px 0px 30px #1e95cc;
-  }
+    }
 
-  .content.active {
+    .content.active {
       display: block;
       text-shadow: 0 0 25px #6f7dd6, 0 0 32px #894dea, 0px 0px 30px #1e95cc;
-  }
-
-  /* Fade-in Animation */
-  @keyframes fadeIn {
-      from {
-          opacity: 0;
-          transform: translateY(10px);
-      }
-      to {
-          opacity: 1;
-          transform: translateY(0);
-      }
-  }
-</style>
-<script>
-    function showContent(section) {
-        // Hide all content
-        document.querySelectorAll(".content").forEach(content => {
-            content.classList.remove("active");
-        });
-
-        // Remove active class from all buttons
-        document.querySelectorAll(".toggle-btn").forEach(button => {
-            button.classList.remove("active");
-        });
-
-        // Show selected content
-        document.getElementById(section).classList.add("active");
-
-        // Highlight selected button
-        if (section === "experience") {
-            document.querySelector(".toggle-buttons button:nth-child(1)").classList.add("active");
-        } else {
-            document.querySelector(".toggle-buttons button:nth-child(2)").classList.add("active");
-        }
     }
-</script>
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  <script>
+    function showContent(section) {
+      // Hide all content
+      document.querySelectorAll(".content").forEach(content => {
+        content.classList.remove("active");
+      });
+
+      // Remove active class from all buttons
+      document.querySelectorAll(".toggle-btn").forEach(button => {
+        button.classList.remove("active");
+      });
+
+      // Show selected content
+      document.getElementById(section).classList.add("active");
+
+      // Highlight selected button
+      if (section === "experience") {
+        document.querySelector(".toggle-buttons button:nth-child(1)").classList.add("active");
+      } else {
+        document.querySelector(".toggle-buttons button:nth-child(2)").classList.add("active");
+      }
+    }
+  </script>
 </head>
 
-<body> <div id="aaa" style="max-width: 100%;">
-  <header id="aa" style="border: 5px solid #98c9e6; background-color: white;
+<body>
+  <div id="aaa" style="max-width: 100%;">
+    <header id="aa" style="border: 5px solid #98c9e6; background-color: white;
    font-family: Times New Roman; font-size: 40px; border: 5px solid #cdb7f4;
    outline: #894dea solid 5px; position: sticky; top: 0; position: -webkit-sticky;
    margin: auto; padding: 15px;max-width: 100%;">
-    <div id="part1">
-      <a href="#about" size="30">ABOUT</a> |
-      <a href="#Experience" size="30">EXPERIENCE</a> |
-      <a href="#skill" size="30">SKILL</a> |
-      <a href="#project" size="30">PROJECT</a> |
-      <a href="#work" size="30">WORK</a> |
-      <a href="#contact" size="30">CONTACT</a>
-      <img id="1" src="b.jpg" align="right" alt="Welcome" title="Welcome to my Portfolio" width="50px" height="40px" />
-      <img id="1" src="b.jpg" align="left" alt="Welcome" title="Welcome to my Portfolio" width="50px" height="40px" />
-    </div>  </div> 
+      <div id="part1">
+        <a href="#about" size="30">ABOUT</a> |
+        <a href="#Experience" size="30">EXPERIENCE</a> |
+        <a href="#skill" size="30">SKILL</a> |
+        <a href="#project" size="30">PROJECT</a> |
+        <a href="#work" size="30">WORK</a> |
+        <a href="#contact" size="30">CONTACT</a>
+        <img id="1" src="b.jpg" align="right" alt="Welcome" title="Welcome to my Portfolio" width="50px"
+          height="40px" />
+        <img id="1" src="b.jpg" align="left" alt="Welcome" title="Welcome to my Portfolio" width="50px" height="40px" />
+      </div>
+  </div>
   </header>
 
-  <div id="intro" style="border: 1px solid white;position: relative; background: url(l1.png) center/cover no-repeat; width: 100%; height: 500px; padding: 15px;">
-   
-  <div style="
+  <div id="intro"
+    style="border: 1px solid white;position: relative; background: url(l1.png) center/cover no-repeat; width: 100%; height: 500px; padding: 15px;">
+
+    <div style="
     position: absolute;
     z-index: 3; /* gray box will be above both green and black box */
     height: 30%;  
     width: 50%;max-width: 50%;
     left: 10%;
     top: 50px;">
-    <h1 >
-      <i>Hi! I'm LAIBA HANIF</i>
-    </h1>
-    <p style="color:#7a69d8; text-align:center; flex-wrap: wrap;">
-      <b><i>  A <span style="color: #6d32b9;" class="highlight"> UI,UX & GRAPHIC DESIGNER,</span> who loves creativity, 
-        continuous learning and passionate individuals.  I believe I am a very ambitious person who loves to work 
-        on making the website work well.I build website with a focus on <span class="highlight">JavaScript and React</span> 
-        considering all the aspects of <span class="highlight">UI/UX</span>.
-          Make changes any time according to your desires any time because your satisfaction is more important.
-        </i></b>
-    </p></div>
+      <h1>
+        <i>Hi! I'm LAIBA HANIF</i>
+      </h1>
+      <p style="color:#7a69d8; text-align:center; flex-wrap: wrap;">
+        <b><i> A <span style="color: #6d32b9;" class="highlight"> UI,UX & GRAPHIC DESIGNER,</span> who loves creativity,
+            continuous learning and passionate individuals. I believe I am a very ambitious person who loves to work
+            on making the website work well.I build website with a focus on <span class="highlight">JavaScript and
+              React</span>
+            considering all the aspects of <span class="highlight">UI/UX</span>.
+            Make changes any time according to your desires any time because your satisfaction is more important.
+          </i></b>
+      </p>
+    </div>
   </div>
   <br>
   <a name="about"></a>
@@ -143,43 +150,47 @@ body {
     <p style="color: gray;">Get To Know More</p>
     <h1 class="title" id="aboutTitle">About Me</h1>
     <div class="parent">
-        <div class="container">
-            <!-- Toggle Buttons -->
-            <div class="toggle-buttons">
-                <button class="toggle-btn active" onclick="showContent('experience')">Experience</button>
-                <button class="toggle-btn" onclick="showContent('education')">Education</button>
-            </div>
-    
-            <!-- Experience Content -->
-            <div id="experience" class="content active">
-                <h3>Experience</h3>
-                <p>2 years as GRAPHIC DESIGNER (2022-2025)</p>
-                <p>6 month as Web Developer (2024-2025)</p>
-            </div>
-    
-            <!-- Education Content -->
-            <div id="education" class="content">
-                <h3>Education</h3>
-                <p>BS Biotechnology (present)</p>
-            </div>
+      <div class="container">
+        <!-- Toggle Buttons -->
+        <div class="toggle-buttons">
+          <button class="toggle-btn active" onclick="showContent('experience')">Experience</button>
+          <button class="toggle-btn" onclick="showContent('education')">Education</button>
         </div>
+
+        <!-- Experience Content -->
+        <div id="experience" class="content active">
+          <h3>Experience</h3>
+          <p>2 years as GRAPHIC DESIGNER (2022-2025)</p>
+          <p>6 month as Web Developer (2024-2025)</p>
+        </div>
+
+        <!-- Education Content -->
+        <div id="education" class="content">
+          <h3>Education</h3>
+          <p>BS Biotechnology (present)</p>
+        </div>
+      </div>
     </div>
     <br>
-    <p id="text2"style="border: 1px solid rgb(255, 255, 255);border-radius: 5px; margin-left:15%;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-     margin-right:15%;margin-bottom: 20px;margin-top: 5px; text-align-last: center; text-align: justify; padding: 10px;">
-      
-      I'm  a passionate<span style="color: #6d32b9;"class="highlight"> Software Developer</span> with a knack for building innovative solutions
-      and a love for coding, from <span style="color: #8045ce;" class="highlight">Pakistan</span>. 
-      With a strong foundation in programing languages and hands-on experience in 
-     <span style="color: #6e39ac;" class="highlight">MERN-stack development</span> and a drive to deliver high-quality software products. 
-     I'm a creative person driven by my passion for web designing as I worked as a web developer and graphic designer both, an amazing 
-     combination which make my work next level. I developed Web
+    <p id="text2" >
+
+      I'm a passionate<span style="color: #6d32b9;" class="highlight"> Software Developer</span> with a knack for
+      building innovative solutions
+      and a love for coding, from <span style="color: #8045ce;" class="highlight">Pakistan</span>.
+      With a strong foundation in programing languages and hands-on experience in
+      <span style="color: #6e39ac;" class="highlight">MERN-stack development</span> and a drive to deliver high-quality
+      software products.
+      I'm a creative person driven by my passion for web designing as I worked as a web developer and graphic designer
+      both, an amazing
+      combination which make my work next level. I developed Web
       with <span class="highlight">passion</span>, also considering all the aspects of
       which my <span class="highlight">Client requirement</span>.<br>
-      I'm fascinated by the ever-evolving landscape of technology and love to stay up-to-date with the latest trends and advancements. 
+      I'm fascinated by the ever-evolving landscape of technology and love to stay up-to-date with the latest trends and
+      advancements.
       My areas of interest include <span class="highlight"> cybersecurity</span>.
-      I am a well-trained teammate who loves to share ideas and prioritizes communication and user's needs in order to achieve goals within the set deadlines.  
-       </p>
+      I am a well-trained teammate who loves to share ideas and prioritizes communication and user's needs in order to
+      achieve goals within the set deadlines.
+    </p>
   </section>
 
   <a name="Experience"></a>
@@ -188,7 +199,7 @@ body {
     <a href="https://www.youtube.com/@Learn_earn11" style="border: 2px solid #c0c1fd; font-family:Times New Roman;
         font-size: 40px; margin: 5px; padding: 5px;">Visit My YT Channel</a>
     <h1 class="title">Experience</h1>
-    <h3 class="section-text">Development Tools & Softwares</h3>
+
     <div class="exp-container">
       <article>
         <img decoding="async" src="capcut.png" alt="icon" class="icon1" />
@@ -234,7 +245,7 @@ body {
     <div>
       <article>
         <div class="skill1">
-          <img decoding="async" src="ex1.png" alt="Experience icon" id="skillimage"/>
+          <img decoding="async" src="ex1.png" alt="Experience icon" id="skillimage" />
           <h3>HTML5</h3>
           <p>Experienced</p>
         </div>
@@ -248,36 +259,36 @@ body {
       </article>
       <article>
         <div class="skill1">
-          <img decoding="async" src="ex5.png" alt="Experience icon" id="skillimage"/>
+          <img decoding="async" src="ex5.png" alt="Experience icon" id="skillimage" />
           <h3>JavaScript</h3>
           <p>Experienced</p>
         </div>
       </article>
       <article>
         <div class="skill1">
-          <img decoding="async" src="ex2.png" alt="Experience icon" id="skillimage"/>
-          <h3>GRAPHIC DESIGNING</h3>
+          <img decoding="async" src="ex2.png" alt="Experience icon" id="skillimage" />
+          <h3>JSX $ React</h3>
           <p>Intermediate</p>
         </div>
       </article>
       <article>
         <div class="skill1">
-          <img decoding="async" src="video1.png" alt="Experience icon" id="skillimage"/>
+          <img decoding="async" src="video1.png" alt="Experience icon" id="skillimage" />
           <h3>VIDEO EDITING</h3>
           <p>Intermediate</p>
         </div>
       </article>
       <article>
         <div class="skill1">
-          <img decoding="async" src="ex6.png" alt="Experience icon" id="skillimage"/>
-          <h3>COMMUNICATION SKILL</h3>
+          <img decoding="async" src="ex6.png" alt="Experience icon" id="skillimage" />
+          <h3>GRAPHIC DESIGNING</h3>
           <p>Intermediate</p>
         </div>
       </article>
       <article>
         <div class="skill1">
-          <img decoding="async" src="ex2.png" alt="Experience icon" id="skillimage"/>
-          <h3>MANAGEMENT</h3>
+          <img decoding="async" src="ex2.png" alt="Experience icon" id="skillimage" />
+          <h3>COMMUNICATION SKILL</h3>
           <p>Intermediate</p>
         </div>
       </article>
@@ -357,7 +368,8 @@ body {
       <h3>Thumbnail</h3>
     </div>
     <div class="project">
-      <img class="proj-img" src="Navy Orange Gold Stock Trading Investment Facebook Post.png" width="300px" height="150" />
+      <img class="proj-img" src="Navy Orange Gold Stock Trading Investment Facebook Post.png" width="300px"
+        height="150" />
       <h3>Social Media Post</h3>
     </div>
     <div class="project">
@@ -366,7 +378,7 @@ body {
     </div>
   </section>
 
-  <fieldset style="margin-left:20%; margin-right:20%; color:#6f7dd6;">
+  <fieldset style="margin: 0 20%; color:#6f7dd6;">
     <section id="contact">
       <a name="contact"></a>
       <p style="color: gray;">FOR QUERIES GET IN TOUCH</p>
@@ -374,20 +386,19 @@ body {
       <p>You can contact me via</p>
       <p>Email: laibahanif112002@gmail.com</p>
       <p>or</p>
-      <form  style="margin-left:25%; margin-right:25%; color:#6f7dd6;"
-      class="contact-form" action="https://formspree.io/f/xeoenjyz" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/xeoenjyz" method="POST">
         <h2>Contact Me</h2>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-        
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-        
+
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
-        
+
         <button type="submit">Send Message</button>
-    </form>
+      </form>
     </section>
   </fieldset>
 
