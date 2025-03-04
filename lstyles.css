@@ -297,7 +297,10 @@ a {
     width: 100%;
 
   }
-
+p {
+    color: #624a89;
+    font: 20px serif;
+  }
   .parent {
     display: flex;
     flex-direction: column;
