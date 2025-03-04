@@ -53,6 +53,7 @@ border-radius: 10px;
  margin: 0 20%;
  color:#6f7dd6;
  text-align: center;
+ padding: 20px;
 }
 
 h3 {
@@ -357,12 +358,8 @@ a {
 
   #contact {
     margin: auto;
-    text-align: center;
-    border: 1px solid #666;
-   border-radius: 10px;
-   color:#6f7dd6;
-
-  }
+    padding: 10px;
+   }
 
   .contact-form {
   background: #fff;
