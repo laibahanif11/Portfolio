@@ -46,7 +46,12 @@ h1 {
   text-shadow: 0px 0px 30px #1e95cc;
   text-shadow: 0 0 25px #6f7dd6;
 }
-
+#contact{
+ border: 1px solid #666;
+border-radius: 10px;
+ margin: 0 20%;
+ color:#6f7dd6;
+}
 #contact,
 h1 {
   text-align: center;
@@ -192,7 +197,6 @@ a {
   width: 100%;
   max-width: 400px;
   margin: auto;
-  ;
   color: #6f7dd6;
 }
 
@@ -253,10 +257,7 @@ a {
   text-align: justify;
   padding: 10px;
 }
-fieldset{
-margin: 0 20%;
- color:#6f7dd6;
- }
+
 @media screen and (max-width: 768px) {
   header {
     max-width: 100%;
@@ -351,8 +352,14 @@ margin: 0 20%;
     border-radius: 10px;
   }
 
-  fieldset {
+  #contact {
     margin: auto;
     text-align: center;
+    border: 1px solid #666;
+   border-radius: 10px;
+   color:#6f7dd6;
+
   }
+  
 }
+
