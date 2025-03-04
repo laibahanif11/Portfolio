@@ -45,16 +45,14 @@ h1 {
   text-decoration: none;
   text-shadow: 0px 0px 30px #1e95cc;
   text-shadow: 0 0 25px #6f7dd6;
+  text-align: center;
 }
 #contact{
  border: 1px solid #666;
 border-radius: 10px;
  margin: 0 20%;
  color:#6f7dd6;
-}
-#contact,
-h1 {
-  text-align: center;
+ text-align: center;
 }
 
 h3 {
@@ -297,10 +295,12 @@ a {
     width: 100%;
 
   }
-p {
+
+  p {
     color: #624a89;
     font: 20px serif;
   }
+  
   .parent {
     display: flex;
     flex-direction: column;
