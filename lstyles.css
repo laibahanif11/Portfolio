@@ -358,9 +358,13 @@ a {
 
   #contact {
     margin: auto;
-    padding: 10px;
    }
 
+  #contact p {
+    font: 20px serif;
+    padding: 20px;
+    margin: 20px;
+  } 
   .contact-form {
   background: #fff;
   padding: 20px;
