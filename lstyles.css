@@ -253,7 +253,10 @@ a {
   text-align: justify;
   padding: 10px;
 }
-
+fieldset{
+margin: 0 20%;
+ color:#6f7dd6;
+ }
 @media screen and (max-width: 768px) {
   header {
     max-width: 100%;
