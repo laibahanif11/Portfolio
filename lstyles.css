@@ -8,25 +8,7 @@ body {
   font-family: Arial, sans-serif, verdana;
   overflow-x: hidden;
   text-align: center;
-}
-
-part1 {
-  border: 1px solid #727577;
-  border-radius: 50%;
-  font-weight: 500;
-  color: #252427;
-  position: relative;
-
-}
-
-part1 a::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  color: #252427;
-
-
+  padding: 20px;
 }
 
 label {
@@ -250,15 +232,6 @@ a {
   background: #7003ff;
 }
 
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fffdfd;
-  text-align: center;
-  padding: 20px;
-
-}
-
 .container {
   max-width: 1000px;
   margin: auto;
@@ -318,11 +291,6 @@ body {
 }
 
 #nav {
-  max-width: 100%;
-}
-
-header {
-  border: 5px solid #98c9e6;
   background-color: white;
   font-family: Times New Roman;
   font-size: 40px;
@@ -345,17 +313,13 @@ position: absolute;
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    max-width: 100%;
-    font-size: 15px;
+  #nav {
+    font-size: 16px;
     text-align: center;
     padding: 10px;
-    flex-wrap: wrap;
-    flex: wrap;
-  }
-
-  #nav {
+    
     position: relative;
+    top: 0;
   }
 
   #part1 a {
@@ -450,5 +414,29 @@ position: absolute;
     max-width: 400px;
     margin: auto;
     color: #6f7dd6;
+  }
+}
+@media (max-width: 1024px) {
+  .content {
+    justify-content: space-between;
+  }
+
+  .service {
+    width: 45%;
+  }
+}
+
+
+@media (max-width: 480px) {
+ h1 {
+    font-size: 1.8em;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 }
