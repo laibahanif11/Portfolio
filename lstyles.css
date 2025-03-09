@@ -167,7 +167,7 @@ a {
 }
 
 #contact {
-  border: 1px solid #999;
+  border: 1px solid #aaa;
   border-radius: 10px;
   margin: 0 20%;
   color: #6f7dd6;
@@ -421,7 +421,7 @@ a {
   }
 
   #contact {
-    padding: 15px;
+    padding: 13px;
     margin: 0 5%;
   }
 
