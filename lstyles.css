@@ -287,21 +287,17 @@ a {
 
 #intro {
   border: 1px solid white;
+  background: url(l1.png);
   background-size: 100%;
   width: 100%;
   height: 500px;
   margin-top: 10px;
-  /* 
-  background: url(l1.png);
   background-position: center;
   background-repeat: no-repeat;
-  */
-
-  background: url(l1.png) center/cover no-repeat;
+  /* background: url(l1.png) center/cover no-repeat; */
   position: relative;
   padding: 15px;
 }
-
 #intro #intro-container {
   position: absolute;
   z-index: 3;
@@ -335,8 +331,8 @@ a {
   }
 
   #nav img {
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
   }
 
   #intro h1 {
@@ -427,7 +423,7 @@ a {
     justify-content: space-between;
   }
 
-
+  
 }
 
 @media (max-width: 480px) {
