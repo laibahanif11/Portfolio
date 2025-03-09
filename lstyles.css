@@ -73,7 +73,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #7b00d3;
-  font-size: 40px;
   background-color: light-gray;
 }
 
@@ -143,11 +142,11 @@ a {
 #contact {
   border: 1px solid #aaa;
   border-radius: 10px;
-  margin: 0 20%;
+  margin: 0 10%;
   color: #6f7dd6;
   text-align: center;
   padding: 20px;
-  width: 95%;
+  width: 80%;
 }
 
 /* form Styles */
@@ -333,7 +332,8 @@ a {
 
 @media screen and (max-width: 768px) {
   #nav {
-    font-size: 16px;
+    margin:3px;
+    font-size: 18px;
     border: 2px solid #cdb7f4;
     outline: #894dea solid 2px;
     padding: 7px;
@@ -353,7 +353,7 @@ a {
   }
 
   #intro p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 2% 3%;
     width: 100%;
   }
@@ -410,6 +410,7 @@ a {
   #contact {
     padding: 13px;
     margin: 0 5%;
+    width: 90%;
   }
 
   #contact p {
@@ -420,7 +421,7 @@ a {
 
   .contact-form {
     padding: 15px;
-    max-width: 400px;
+    max-width: 340px;
     margin: auto;
   }
 }
