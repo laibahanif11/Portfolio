@@ -327,7 +327,7 @@ position: absolute;
     font-size: 16px;
     text-align: center;
     padding: 10px;
-    flex-direction: column;
+    flex-direction: row;
 
     position: relative;
     top: 0;
