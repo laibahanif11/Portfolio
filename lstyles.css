@@ -333,10 +333,11 @@ position: absolute;
     top: 0;
   }
  
-  #nav a {
+  #navl a {
+    display: inline-block;
+
     display: block;
 
-    display: inline-block;
     margin: 5px 0;
     padding: 5px;
 
