@@ -1,5 +1,6 @@
 /* laiba portfolio*/
-*{align-items:center;
+*{
+  align-items:center;
 }
 html {
   scroll-behavior: smooth;
@@ -11,6 +12,7 @@ body {
   text-align: center;
   padding: 0px;
   margin: 0px;
+  align-items:center;
 }
 
 label {
@@ -334,7 +336,6 @@ a {
 
 @media screen and (max-width: 768px) {
   #nav {
-    margin:3px;
     font-size: 18px;
     border: 2px solid #cdb7f4;
     outline: #894dea solid 2px;
