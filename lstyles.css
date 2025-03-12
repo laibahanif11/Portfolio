@@ -1,4 +1,3 @@
-
 /* laiba portfolio*/
 * {
   align-items: center;
@@ -322,7 +321,7 @@ a {
   z-index: 3;
   /* gray box will be above both green and black box */
   height: 30%;
-  max-width: 70%;
+  max-width: 60%;
   left: 5%;
   top: 50px;
 }
@@ -363,6 +362,12 @@ a {
   #nav img {
     width: 30px;
     height: 20px;
+  }
+
+  #intro-container {
+    max-width: 70%;
+    left: 3%;
+    top: 30px;
   }
 
   h3 {
