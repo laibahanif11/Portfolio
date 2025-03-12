@@ -372,8 +372,8 @@ a {
     position: absolute;
     z-index: 3;
     /* gray box will be above both green and black box */
-    height: 40%;
-    top: 50px;
+    height: 50%;
+    top: 75px;
   }
   h3 {
     font-size: 24px;
