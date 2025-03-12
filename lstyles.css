@@ -519,7 +519,7 @@ a {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   h1 {
     font-size: 1.8em;
   }
