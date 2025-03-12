@@ -313,9 +313,8 @@ a {
   z-index: 3;
   /* gray box will be above both green and black box */
   height: 30%;
-  width: 60%;
-  max-width: 60%;
-  left: 5%;
+  max-width: 40%;
+  left: 3%;
   top: 50px;
 }
 
