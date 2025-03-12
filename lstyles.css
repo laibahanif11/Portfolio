@@ -383,11 +383,10 @@ a {
   #intro p {
     font-size: 11px;
     margin: 2%;
-    width: 300px;
+    width: 400px;
   }
 
   p {
-    color: #624a89;
     font: 20px serif;
   }
 
@@ -519,13 +518,13 @@ a {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 1.8em;
   }
 
   #intro p {
-    font-size: 11px;
+    font-size: 16px;
     margin: 2% 3%;
     width: 100%;
   }
