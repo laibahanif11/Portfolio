@@ -321,7 +321,7 @@ a {
   z-index: 3;
   /* gray box will be above both green and black box */
   height: 30%;
-  max-width: 60%;
+  max-width: 65%;
   left: 5%;
   top: 50px;
 }
@@ -353,10 +353,11 @@ a {
     font-size: 18px;
     border: 2px solid #cdb7f4;
     outline: #894dea solid 2px;
-    padding: 7px;
+    margin: 3px;
+    padding: 3px;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 2;
   }
 
   #nav img {
@@ -367,7 +368,6 @@ a {
   #intro-container {
     max-width: 70%;
     left: 3%;
-    top: 30px;
   }
 
   h3 {
