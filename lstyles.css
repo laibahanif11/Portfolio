@@ -368,8 +368,13 @@ a {
   #intro-container {
     max-width: 70%;
     left: 3%;
+    right: 0%;
+    position: absolute;
+    z-index: 3;
+    /* gray box will be above both green and black box */
+    height: 40%;
+    top: 50px;
   }
-
   h3 {
     font-size: 24px;
   }
@@ -380,7 +385,7 @@ a {
   }
 
   #intro p {
-    font-size: 13px;
+    font-size: 11px;
     margin: 2%;
     width: 300px;
   }
