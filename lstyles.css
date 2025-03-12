@@ -369,11 +369,7 @@ a {
     max-width: 70%;
     left: 3%;
     right: 0%;
-    position: absolute;
-    z-index: 3;
-    /* gray box will be above both green and black box */
-    height: 50%;
-    top: 75px;
+   height: 70%;
   }
   h3 {
     font-size: 24px;
@@ -454,7 +450,6 @@ a {
   }
 
   #contact p {
-    font: 20px serif;
     padding: 10px;
     margin: 10px;
   }
