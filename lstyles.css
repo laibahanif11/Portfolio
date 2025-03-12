@@ -48,6 +48,10 @@ p {
   font: 30px serif;
 }
 
+section{
+  margin:0;
+  padding:0;
+}
 .icon1 {
   width: 50px;
   height: 50px;
@@ -349,6 +353,10 @@ a {
     padding: 5px;
   }
   
+  section{
+    margin:0;
+    padding:0;
+  }
   #nav {
     font-size: 18px;
     border: 2px solid #cdb7f4;
@@ -370,6 +378,7 @@ a {
     left: 3%;
     right: 0%;
    height: 70%;
+   top: 55px;
   }
   h3 {
     font-size: 24px;
