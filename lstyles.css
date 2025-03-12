@@ -1,6 +1,7 @@
 /* laiba portfolio*/
 * {
   align-items: center;
+  box-sizing: border-box;
 }
 
 html {
