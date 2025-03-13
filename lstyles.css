@@ -320,8 +320,8 @@ a {
   position: absolute;
   z-index: 3;
   /* gray box will be above both green and black box */
-  max-width: 60%;
-  left: 5%;
+  max-width: 50%;
+  left: 6%;
   top: 50px;
 }
 
@@ -371,15 +371,14 @@ a {
   #intro {
     height: 280px;
     padding: 0px;
-    top: 110px;
-    margin-bottom: 15px;
+    top: 115px;
   }
 
   #intro-container {
     max-width: 90%;
     left: 3%;
     right: 0%;
-    top: -60px;
+    top: -65px;
   }
 
   #intro-container p {
@@ -403,6 +402,9 @@ a {
     text-align: center;
   }
 
+  #about{
+    margin-top: 20px;
+  }
   h3 {
     font-size: 24px;
   }
