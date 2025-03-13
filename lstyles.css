@@ -302,7 +302,6 @@ a {
 
 #intro {
   border: 2px solid green;
-
   background: url(l1.png);
   background-size: 100%;
   width: 100%;
@@ -381,6 +380,7 @@ a {
     background: url(l1.png) center/cover no-repeat; 
     */
     padding: 0px;
+    top: 55px;
   }
 
   #intro-container {
@@ -388,7 +388,7 @@ a {
     left: 3%;
     right: 0%;
    height: 70%;
-   top: 65px;
+   top: 55px;
    border: 2px solid pink;
 
   }
@@ -402,9 +402,9 @@ a {
   }
 
   #intro p {
-    font-size: 10px;
+    font-size: 9px;
     margin: 2%;
-    width: 400px;
+    width: 430px;
   }
 
   p {
