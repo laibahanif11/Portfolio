@@ -338,7 +338,7 @@ a {
   text-align: center;
   flex-wrap: wrap;
   text-align: center;
-  margin:0 6%;
+  margin: 0 6%;
 }
 
 @media screen and (max-width: 768px) {
@@ -372,7 +372,7 @@ a {
     height: 260px;
     padding: 0px;
     border: 2px solid green;
-    top:60px;
+    top: 70px;
   }
 
   #intro-container {
@@ -380,26 +380,25 @@ a {
     left: 3%;
     right: 0%;
     border: 2px solid red;
-    top:-10px;
+    top: -10px;
   }
 
   #intro-container p {
-    font-size: 7px;
-    margin:0 3%;
+    font-size: 6px;
+    margin: 0 3%;
     width: 500px;
-    padding:0 20px;
+    padding: 0;
   }
 
-  #p2{
-    color: #7a69d8;
-  text-align: center;
-  flex-wrap: wrap;
-  margin:0 6%;
-
-
-  font-size: 7px;
+  #p2 {
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 6%;
+    margin-left: 3%;
+    font-size: 6px;
     max-width: 70%;
   }
+
   #intro h1 {
     font-size: 18px;
     text-align: center;
