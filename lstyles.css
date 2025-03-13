@@ -301,6 +301,8 @@ a {
 }
 
 #intro {
+  position: relative;
+  top: 75px;
   border: 2px solid green;
   background: url(l1.png);
   background-size: 100%;
@@ -313,10 +315,7 @@ a {
   border: 1px solid #fff;
   background: url(l1.png) center/cover no-repeat; 
   */
-  position: relative;
   padding: 15px;
-  top: 55px;
-
 }
 
 #intro-container {
@@ -373,7 +372,7 @@ a {
   }
 
   #intro {
-    border: 2px solid blue;
+    border: 2px solid yellow;
 
     height: 350px;
     margin-top: 10px;
