@@ -392,10 +392,14 @@ a {
     text-align: center;
     flex-wrap: wrap;
     margin: 0 6%;
-    margin-left: 3%;
+    margin-left: 2%;
     font-size: 5px;
-    max-width: 70%;
+    max-width: 75%;
     padding: 0;
+  }
+
+  #p2::last-line {
+    max-width: 100%;
   }
 
   #intro h1 {
@@ -403,9 +407,11 @@ a {
     text-align: center;
   }
 
-  #about{
-    margin-top: 40px;
+  #about {
+    margin-top: 60px;
+    z-index: 5;
   }
+
   h3 {
     font-size: 24px;
   }
