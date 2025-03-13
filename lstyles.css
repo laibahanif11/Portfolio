@@ -372,13 +372,14 @@ a {
     height: 280px;
     padding: 0px;
     top: 100px;
+    margin-bottom: 15px;
   }
 
   #intro-container {
     max-width: 90%;
     left: 3%;
     right: 0%;
-    top: -400px;
+    top: -50px;
   }
 
   #intro-container p {
