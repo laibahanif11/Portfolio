@@ -371,7 +371,7 @@ a {
   #intro {
     height: 280px;
     padding: 0px;
-    top: 100px;
+    top: 110px;
     margin-bottom: 15px;
   }
 
@@ -379,7 +379,7 @@ a {
     max-width: 90%;
     left: 3%;
     right: 0%;
-    top: -50px;
+    top: -60px;
   }
 
   #intro-container p {
