@@ -371,16 +371,14 @@ a {
   #intro {
     height: 260px;
     padding: 0px;
-    border: 2px solid green;
-    top: 70px;
+    top: 80px;
   }
 
   #intro-container {
     max-width: 90%;
     left: 3%;
     right: 0%;
-    border: 2px solid red;
-    top: -10px;
+    top: -20px;
   }
 
   #intro-container p {
