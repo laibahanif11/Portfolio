@@ -315,6 +315,8 @@ a {
   */
   position: relative;
   padding: 15px;
+  top: 55px;
+
 }
 
 #intro-container {
@@ -373,7 +375,7 @@ a {
   #intro {
     border: 2px solid blue;
 
-    height: 400px;
+    height: 350px;
     margin-top: 10px;
     /* 
     border: 1px solid #fff;
