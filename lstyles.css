@@ -370,9 +370,8 @@ a {
   }
 
   #intro {
-    height: 350px;
+    height: 300px;
     padding: 0px;
-    top: 40px;
     border: 2px solid green;
   }
 
@@ -381,7 +380,6 @@ a {
     left: 3%;
     right: 0%;
     border: 2px solid red;
-    top: -30px
   }
 
   #intro-container p {
