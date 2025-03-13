@@ -339,7 +339,6 @@ a {
   flex-wrap: wrap;
   text-align: center;
   margin:0 6%;
-  margin-left: 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -373,7 +372,7 @@ a {
     height: 260px;
     padding: 0px;
     border: 2px solid green;
-    top:50px;
+    top:60px;
   }
 
   #intro-container {
@@ -381,14 +380,14 @@ a {
     left: 3%;
     right: 0%;
     border: 2px solid red;
-    top:0px;
+    top:-10px;
   }
 
   #intro-container p {
     font-size: 7px;
     margin:0 3%;
     width: 500px;
-    padding: 0px;
+    padding:0 20px;
   }
 
   #p2{
@@ -397,8 +396,9 @@ a {
   flex-wrap: wrap;
   margin:0 6%;
 
+
   font-size: 7px;
-    max-width: 65%;
+    max-width: 70%;
   }
   #intro h1 {
     font-size: 18px;
