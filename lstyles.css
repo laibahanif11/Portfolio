@@ -388,7 +388,6 @@ a {
     left: 3%;
     right: 0%;
    height: 70%;
-   top: 55px;
    border: 2px solid pink;
   }
   h3 {
@@ -400,7 +399,7 @@ a {
     text-align: center;
   }
 
-  #intro p {
+  #intro-container p {
     font-size: 9px;
     margin: 2%;
     width: 430px;
