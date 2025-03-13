@@ -371,14 +371,14 @@ a {
   #intro {
     height: 280px;
     padding: 0px;
-    top: 115px;
+    top: 125px;
   }
 
   #intro-container {
     max-width: 90%;
     left: 3%;
     right: 0%;
-    top: -65px;
+    top: -75px;
   }
 
   #intro-container p {
@@ -395,6 +395,7 @@ a {
     margin-left: 3%;
     font-size: 5px;
     max-width: 70%;
+    padding: 0;
   }
 
   #intro h1 {
@@ -403,7 +404,7 @@ a {
   }
 
   #about{
-    margin-top: 20px;
+    margin-top: 40px;
   }
   h3 {
     font-size: 24px;
