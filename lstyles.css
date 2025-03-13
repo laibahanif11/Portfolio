@@ -343,15 +343,16 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  
+
   body {
     padding: 5px;
   }
-  
-  section{
-    margin:30px 0;
-    padding:0;
+
+  section {
+    margin: 30px 0;
+    padding: 0;
   }
+
   #nav {
     font-size: 18px;
     border: 2px solid #cdb7f4;
@@ -369,44 +370,21 @@ a {
   }
 
   #intro {
-    height: 350px;
     margin-top: 60px;
-    /* 
-    border: 1px solid #fff;
-    background: url(l1.png) center/cover no-repeat; 
-    */
+    
     padding: 0px;
-    top: 65px;
+    top: 55px;
 
-    position: relative;
     border: 2px solid green;
-    background: url(l1.png);
-    background-size: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* 
-    border: 1px solid #fff;
-    background: url(l1.png) center/cover no-repeat; 
-    */
-    padding: 15px;  
+    padding: 15px;
   }
 
   #intro-container {
-    max-width: 70%;
+    max-width: 90%;
     left: 3%;
     right: 0%;
-   height: 70%;
-   border: 2px solid red;
-   top: 0px
-  }
-  h3 {
-    font-size: 24px;
-  }
-
-  #intro h1 {
-    font-size: 18px;
-    text-align: center;
+    border: 2px solid red;
+    top: -30px
   }
 
   #intro-container p {
@@ -414,6 +392,15 @@ a {
     margin: 2%;
     width: 500px;
     padding: 0px;
+  }
+
+  #intro h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
   }
 
   p {
@@ -427,6 +414,7 @@ a {
     margin: 5px;
     padding: 5px;
   }
+
   .parent {
     display: flex;
     flex-direction: column;
