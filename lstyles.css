@@ -398,10 +398,6 @@ a {
     padding: 0;
   }
 
-  #intro-container p::last-line {
-    text-align: left;
-  }
-
   #p2::last-line {
     max-width: 100%;
   }
