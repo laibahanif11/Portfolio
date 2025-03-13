@@ -302,8 +302,6 @@ a {
 
 #intro {
   position: relative;
-  top: 75px;
-  border: 2px solid green;
   background: url(l1.png);
   background-size: 100%;
   width: 100%;
@@ -322,7 +320,6 @@ a {
   position: absolute;
   z-index: 3;
   /* gray box will be above both green and black box */
-  height: 30%;
   max-width: 65%;
   left: 5%;
   top: 50px;
@@ -372,8 +369,6 @@ a {
   }
 
   #intro {
-    border: 2px solid yellow;
-
     height: 350px;
     margin-top: 10px;
     /* 
@@ -382,6 +377,19 @@ a {
     */
     padding: 0px;
     top: 65px;
+
+    position: relative;
+    border: 2px solid green;
+    background: url(l1.png);
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* 
+    border: 1px solid #fff;
+    background: url(l1.png) center/cover no-repeat; 
+    */
+    padding: 15px;  
   }
 
   #intro-container {
