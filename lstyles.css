@@ -301,6 +301,8 @@ a {
 }
 
 #intro {
+  border: 2px solid green;
+
   background: url(l1.png);
   background-size: 100%;
   width: 100%;
@@ -375,6 +377,8 @@ a {
     right: 0%;
    height: 70%;
    top: 55px;
+   border: 2px solid pink;
+
   }
   h3 {
     font-size: 24px;
