@@ -371,12 +371,10 @@ a {
 
   #intro {
     margin-top: 60px;
-    
+    height: 350px;
     padding: 0px;
-    top: 55px;
-
+    top: 40px;
     border: 2px solid green;
-    padding: 15px;
   }
 
   #intro-container {
